@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script defer src="./js/script.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <nav id="title">
+        <h1>Weather</h1>
+    </nav>
+    
+    <form class="one">
+        <input type="text" placeholder="Search By City"/>
+        <input type="submit" value="Search" />
+    </form>
+    
+    <div class="container">
+        <div class="item"><p class="two">City: </p><p id="name"></p></div>
+        <div class="item"><p class="two">Temperature: </p><p id="temp"></p></div>
+        <div class="item"><p class="two">Feels like: </p><p id="feels_like"></p></div> 
+        <div class="item"><p class="two">Temp max: </p><p id="temp_max"></p></div>
+        <div class="item"><p class="two">Temp min: </p><p id="temp_min"></p></div>
+    </div>
+</body>
+    
+</html>
